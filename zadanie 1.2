@@ -1,0 +1,44 @@
+using System;
+using System.Text;
+
+class Program
+{
+    static void PrintDiamond(int n)
+    {
+        var middle = n / 2;
+
+        for (var row = 0; row < n; row++)
+        {
+            var line = new StringBuilder();
+
+            var distanceFromCenter =
+                Math.Abs(middle - row);
+
+            var leftPosition = distanceFromCenter;
+            var rightPosition = n - 1 - distanceFromCenter;
+
+            for (var column = 0; column < n; column++)
+            {
+                if (column == leftPosition ||
+                    column == rightPosition)
+                {
+                    line.Append('X');
+                }
+                else
+                {
+                    line.Append(' ');
+                }
+            }
+
+            Console.WriteLine(line.ToString());
+        }
+    }
+
+    static void Main()
+    {
+        Console.Write("Введите нечётное число N: ");
+        var n = Convert.ToInt32(Console.ReadLine());
+
+        PrintDiamond(n);
+    }
+}
