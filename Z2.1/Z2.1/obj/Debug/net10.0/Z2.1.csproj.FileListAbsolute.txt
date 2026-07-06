@@ -1,0 +1,14 @@
+C:\Users\matvz\source\repos\Z2.1\Z2.1\bin\Debug\net10.0\Z2.1.exe
+C:\Users\matvz\source\repos\Z2.1\Z2.1\bin\Debug\net10.0\Z2.1.deps.json
+C:\Users\matvz\source\repos\Z2.1\Z2.1\bin\Debug\net10.0\Z2.1.runtimeconfig.json
+C:\Users\matvz\source\repos\Z2.1\Z2.1\bin\Debug\net10.0\Z2.1.dll
+C:\Users\matvz\source\repos\Z2.1\Z2.1\bin\Debug\net10.0\Z2.1.pdb
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.AssemblyInfoInputs.cache
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.AssemblyInfo.cs
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.csproj.CoreCompileInputs.cache
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.dll
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\refint\Z2.1.dll
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.pdb
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\Z2.1.genruntimeconfig.cache
+C:\Users\matvz\source\repos\Z2.1\Z2.1\obj\Debug\net10.0\ref\Z2.1.dll
