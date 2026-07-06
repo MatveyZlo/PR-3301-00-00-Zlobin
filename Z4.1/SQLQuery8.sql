@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX UIX_Authors_Email ON Authors(Email);
