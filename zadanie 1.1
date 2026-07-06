@@ -1,0 +1,47 @@
+using System;
+using System.Text;
+
+class Program
+{
+    static string CalculateCompoundInterest(
+        double initialDeposit,
+        int years,
+        double interestRate)
+    {
+        var result = new StringBuilder();
+        var amount = initialDeposit;
+
+        for (var year = 1; year <= years; year++)
+        {
+            amount *= 1 + interestRate / 100;
+
+            result.AppendLine(
+                $"Год {year}: {amount:F2} руб.");
+        }
+
+        return result.ToString();
+    }
+
+    static void Main()
+    {
+        Console.Write("Введите начальный вклад: ");
+        var initialDeposit =
+            Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Введите количество лет: ");
+        var years =
+            Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Введите процентную ставку: ");
+        var interestRate =
+            Convert.ToDouble(Console.ReadLine());
+
+        var report = CalculateCompoundInterest(
+            initialDeposit,
+            years,
+            interestRate);
+
+        Console.WriteLine();
+        Console.WriteLine(report);
+    }
+}
